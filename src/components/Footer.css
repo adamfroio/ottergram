@@ -1,0 +1,15 @@
+.footer-component {
+	display: flex;
+	margin-top: 10px;
+	box-shadow: -5px -5px 5px rgb(0 0 0 / 5%);
+	align-items: center;
+	padding: 0 20px;
+}
+
+.footer-component p {
+	color: #674836;
+	margin-left: 15px;
+	display: flex;
+	width: 100%;
+	justify-content: flex-end;
+}
