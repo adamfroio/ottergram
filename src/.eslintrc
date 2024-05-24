@@ -7,7 +7,7 @@
   ],
   "plugins": ["prettier", "react"],
   "rules": {
-    "prettier/prettier": ["error"],
+    "prettier/prettier": ["error", { "endOfLine": "auto" }],
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "react/jsx-indent": [2, 2],
     "react/jsx-indent-props": [2, 2],
@@ -15,13 +15,7 @@
     "react/prefer-stateless-function": [1],
     "react/static-property-placement": [1, "property assignment"],
     "react-hooks/rules-of-hooks": "error", // Checks rules of Hooks
-    "react-hooks/exhaustive-deps": "warn", // Checks effect dependencies
-    "prettier/prettier": [
-      "error",
-      {
-        "endOfLine": "auto"
-      }
-    ]
+    "react-hooks/exhaustive-deps": "warn" // Checks effect dependencies
   },
   "parserOptions": {
     "ecmaFeatures": {
